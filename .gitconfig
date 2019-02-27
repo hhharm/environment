@@ -1,0 +1,14 @@
+[user]
+	name = Nataliya Tolokontseva
+	email = XXX
+[url "https://github.com/"]
+	insteadOf = git://github.com/
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	last = log -1 HEAD
+	unstage = reset HEAD --
+[core]
+	excludesfile = ~/.gitignore
