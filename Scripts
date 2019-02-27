@@ -1,0 +1,11 @@
+#####################################Bash##################################
+
+#Replace string in all files (-R)
+
+-i = inplace
+-g = globally (every occurance)
+
+find <directory> -type f -name '<file extention, e.g. *.less>'| while read -r F
+do
+  cat $F | grep <search string> && sed -i 's/<search string>/<replace string>/g' $F
+done
