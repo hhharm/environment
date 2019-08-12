@@ -10,5 +10,6 @@
 	st = status
 	last = log -1 HEAD
 	unstage = reset HEAD --
+	delete-remote = push origin --delete
 [core]
 	excludesfile = ~/.gitignore
