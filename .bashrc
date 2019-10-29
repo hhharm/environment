@@ -9,6 +9,7 @@ alias push="git push"
 alias co="git co"
 alias pull="git pull --ff-only"
 alias git-remove-old-branches="git remote prune origin && git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d "
+alias git-remove-old-branches-force="echo \"git remote prune origin && git branch -vv | grep 'origin/.*: gone]' |cut -d ' ' -f3 | xargs git branch -D\"; git remote prune origin  &&git branch -vv | grep 'origin/.*: gone]' |cut -d ' ' -f3 | xargs git branch -D"
 alias pushnew="git push --set-upstream origin ` git branch | grep -e '^*' | cut -d ' ' -f 2`"
 #https://stackoverflow.com/questions/1459150/how-to-undo-git-commit-amend-done-instead-of-git-commit/1459264
 alias git-undo-amend="git reset --soft HEAD@{1}"
@@ -21,6 +22,11 @@ alias fe="echo 'npm run start' && npm run start"
 
 #angular cli 
 alias howcreate="echo 'cd <some folder> && ng g module <module name> && ng g component <name> -c=OnPush -m=<module name> -p=<app name> --style=less'"
+
+#angular test
+alias launch-test="npm run test > testlog.txt"
+alias result-test="cat testlog.txt | grep 'should create FAILED'; cat testlog.txt | grep 'TOTAL:'"
+alias test="echo 'Run tests'; launch-test; echo 'Tests has been completed'; result-test"
 
 #**replace here**
 alias homeXXX'cd XXX && pwd'
