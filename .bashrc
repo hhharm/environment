@@ -24,9 +24,9 @@ alias fe="echo 'npm run start' && npm run start"
 alias howcreate="echo 'cd <some folder> && ng g module <module name> && ng g component <name> -c=OnPush -m=<module name> -p=<app name> --style=less'"
 
 #angular test
-alias launch-test="npm run test > testlog.txt"
-alias result-test="cat testlog.txt | grep 'should create FAILED'; cat testlog.txt | grep 'TOTAL:'"
-alias test="echo 'Run tests'; launch-test; echo 'Tests has been completed'; result-test"
+alias launch-test="npm run test"
+alias result-test="cat testlog.txt | grep 'should create FAILED' | tee -a testlog.txt"
+alias test="echo 'Run tests'; launch-test | tee testlog.txt; echo 'Tests has been completed'; result-test"
 
 #**replace here**
 alias homeXXX'cd XXX && pwd'
