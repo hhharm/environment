@@ -29,6 +29,6 @@ alias result-test="cat testlog.txt | grep 'should create FAILED' | tee -a testlo
 alias test="echo 'Run tests'; launch-test | tee testlog.txt; echo 'Tests has been completed'; result-test"
 
 #**replace here**
-alias homeXXX'cd XXX && pwd'
+alias homeXXX='cd XXX && pwd'
 alias homeYYY='cd YYY && pwd'
 alias home='homeXXX'
