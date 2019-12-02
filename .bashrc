@@ -1,3 +1,8 @@
+#github pages
+alias build='ng build --prod --output-path docs --base-href "https://hhharm.github.io/mental-health/"'
+alias publish='ngh --dir=docs/mental-health'
+
+
 #git
 alias gk='echo "gitk --all&"; gitk --all&'
 alias fixgit='echo "eval $(ssh-agent); ssh-add"; eval $(ssh-agent); ssh-add'
