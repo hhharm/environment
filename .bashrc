@@ -1,6 +1,6 @@
 #github pages
 alias build='ng build --prod --output-path docs --base-href "https://hhharm.github.io/mental-health/"'
-alias publish='ngh --dir=docs/mental-health'
+alias publish='ngh --dir=docs'
 
 
 #git
