@@ -14,6 +14,7 @@ What I want to learn in 2020:
 
 
 What I want to learn some day:
++ https://tonejs.github.io/ - JS music library *____*
 + UX principles
 + SEO
 + 3D graphic in Web
