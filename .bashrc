@@ -2,6 +2,21 @@
 alias build='ng build --prod --output-path docs --base-href "https://hhharm.github.io/mental-health/"'
 alias publish='ngh --dir=docs'
 
+#docker 
+alias showcontainers="docker container ls -a"
+alias dockerstart="docker container start"
+alias dockerexec='docker exec -it'
+
+#start on another port in bg and write logs
+alias npm_newport='HOST_PORT=5005 nohup npm start 2>&1 > logs &'
+
+#start nodejs for remote debug
+alias noderemotedebug="node --inspect-brk=0.0.0.0:9230 src"
+#then open chrome://insect and there should be your app
+
+#settings when windows does not see node and java :\
+export PATH="$PATH:/c/Program Files/nodejs/"
+alias java="/c/Program\ Files/Java/jre1.8.0_161/bin/java.exe"
 
 #git
 alias gk='echo "gitk --all&"; gitk --all&'
@@ -19,7 +34,7 @@ alias pushnew="git push --set-upstream origin ` git branch | grep -e '^*' | cut 
 #https://stackoverflow.com/questions/1459150/how-to-undo-git-commit-amend-done-instead-of-git-commit/1459264
 alias git-undo-amend="git reset --soft HEAD@{1}"
 
-#run
+#run spring
 alias run="mvn spring-boot:run -Drun.profiles=dev"
 alias rerun="echo 'mvn clean install && run'; mvn clean install && run"
 alias qrerun="echo 'mvn clean install && run'; mvn clean install 2>&1 1>/dev/null && echo 'installed sucessfully' && run"
