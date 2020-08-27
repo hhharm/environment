@@ -10,7 +10,7 @@ docker container stop CONTAINERID
 docker container rm CONTAINERID
 
 ping host.docker.internal
-(use host.docker.internal instead of localhost)
+#(use host.docker.internal instead of localhost)
 
 #(if npm ci hangs inside docker - use PowerShell!)
 
