@@ -1,3 +1,4 @@
+#use Remote Containers extension in vsCode
 docker container ls -a
 docker container start CONTAINERID
 docker exec -it CONTAINERID //bin//bash
