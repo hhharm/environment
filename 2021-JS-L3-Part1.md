@@ -390,7 +390,15 @@ https://habr.com/ru/post/491116/
 
 OpenID Connect, аутентификация  — является надстройкой над OAuth 2.0 — добавляет сведения о логине и профиле пользователя (identity), добавляет возможность динамической регистрации и обнаружения сервисов “service discovery”. Это дает возможность строить системы SSO (Single Sign-On), в которых используется один логин для многих не связанных между собой сервисов.
 
-Angular security?
+code flow:
+identity server перенаправляет на authorization server, там юзер авторизируется. Возвращает "code" на identity server. Он запрашивает сервер с ресурсами
+
+#### Angular security
 Guards - на роуты, на подгрузку каких-то lazy modules, sanitizing html (by default) или можно отключить через byPassSecurity, interceptors (добавить хедеры какие-нибудь, например), 
 
-Отображение - permission based vs role based
+Отображение - permission based vs role based, удобнее всего mixed.
+Можно написать свою структурную директиву на основе ngIf, например isAuthrized. Есть уже готовая вещь "ngxPermission" - готовая библиотека хорошая.
+
+Security - functional / non functional: it depends. Базовые вещи - non functional, а какие-то high level от заказчика могут быть и functional.
+
+###### при вырастании как разработчика, важнее становятся не знания, а умения их получать, что-то предполагать, выдвигать гипотезы, думать
