@@ -392,3 +392,5 @@ OpenID Connect, аутентификация  — является надстр�
 
 Angular security?
 Guards - на роуты, на подгрузку каких-то lazy modules, sanitizing html (by default) или можно отключить через byPassSecurity, interceptors (добавить хедеры какие-нибудь, например), 
+
+Отображение - permission based vs role based
