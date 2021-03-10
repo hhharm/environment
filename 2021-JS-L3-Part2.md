@@ -51,7 +51,8 @@ Web workers;
 
 CPU bound operations optimizations;
 
-Memory leaks detection;
+###### Memory leaks detection;
+profiling in dev tools (memory)
 
 V8 hidden classes and inline caching techniques;
 
