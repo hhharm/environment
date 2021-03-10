@@ -57,9 +57,6 @@ garbage collector;
 algorythm - mark and sweep? 
 counts number of links and if there are none - clears;
 
-V8 hidden classes and inline caching techniques;
-
-How Event Loop works, microtasks.
 ###### perceived performance
 перфоманс, как воспринимает это пользователь
 - loaders, spinners, etc
@@ -68,6 +65,13 @@ How Event Loop works, microtasks.
 - preload
 - app shell
 - minify layout shift (подёргивание приложения)
+
+###### V8 hidden classes and inline caching techniques;
+memoization - cashing of functions
+...
+another?
+
+How Event Loop works, microtasks.
  
 ###### Materials to study:
 
