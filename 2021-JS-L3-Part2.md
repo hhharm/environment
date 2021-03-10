@@ -52,7 +52,10 @@ Web workers;
 CPU bound operations optimizations;
 
 ###### Memory leaks detection;
-profiling in dev tools (memory)
+profiling in dev tools (memory).
+garbage collector; 
+algorythm - mark and sweep? 
+counts number of links and if there are none - clears;
 
 V8 hidden classes and inline caching techniques;
 
