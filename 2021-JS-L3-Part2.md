@@ -2,6 +2,10 @@
 ###### topics:
 
 Critical Rendering Path (how browser renders page);
+https://habr.com/ru/company/hh/blog/513940/
+Действия браузера для первоначальной отрисовки страницы. Подробней: выкачивание html, зависимых ресурсов (css, js блокирующие), построение DOM, CSSOM, парсинг JS, перестроение DOM, если нужно; построение layout (расположение элементов) и paint (собственно отрисовка).
+
+Как бороться: критичные стили inline; js неблокирующий; картинки - спрайты, маленькие размеры; минификация, конкатенация, обфусцирование; lazy loading, preloading. В http2 можно использовать server push; service workers для кеширования; tree shaking; SSR or app shell
 
 High performant animations, repaint/reflow, layout thrashing;
 
