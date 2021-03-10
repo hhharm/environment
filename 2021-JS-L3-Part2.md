@@ -1,13 +1,17 @@
 #### Performance
 ###### topics:
 
-Critical Rendering Path (how browser renders page);
+####### Critical Rendering Path (how browser renders page);
 https://habr.com/ru/company/hh/blog/513940/
 Действия браузера для первоначальной отрисовки страницы. Подробней: выкачивание html, зависимых ресурсов (css, js блокирующие), построение DOM, CSSOM, парсинг JS, перестроение DOM, если нужно; построение layout (расположение элементов) и paint (собственно отрисовка).
 
 Как бороться: критичные стили inline; js неблокирующий; картинки - спрайты, маленькие размеры; минификация, конкатенация, обфусцирование; lazy loading, preloading. В http2 можно использовать server push; service workers для кеширования; tree shaking; SSR or app shell
+differential loading - браузер решает, грузить модуль новый или старый в зависимости от поддержки. В новых es6 без полифилов, оптимизированный код, более безопасный и более быстрый. script tag has a type="module" or nomodule attribute. 
 
-High performant animations, repaint/reflow, layout thrashing;
+priority hints? https://developers.google.com/web/updates/2019/02/priority-hints
+async defer? 
+
+####### High performant animations, repaint/reflow, layout thrashing;
 
 Improve loading performance and CRP (lazy loading, priority of the sources, gzip, minification/uglification);
 
