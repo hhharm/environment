@@ -106,8 +106,12 @@ How Event Loop works, microtasks.
 	Team background / level of knowledge;
 	SSR support.
 ! говорить с точки зрения бизнеса, его потребностей. А не характеристик фреймворка, своих хотелок и т.д.)
-1) Not functional requirements - speed (performance, package size), security, license, stability, issue fix speed
-2) Возможность поддерживать после релиза
+1) Возможность поддерживать после релиза - есть ли у заказчика какие-то разработчики, лицензии и т.д.
+1) Not functional requirements - speed (performance, package size), security, license, stability, reliability, accessibility
 3) cost of professionals
 4) какие фичи нужны - ssr, pwa, etc
 9. E2E Solutions
+
+
+этапы старта проекта: presale,discovery (тут solution architectors, delivery managers, sometimes TL - текущее состояние команды? time to market? есть ли специфические NFR?)
+есть ли какая-то заинтересованность наша? Может быть у нас уже есть готовая команда?
