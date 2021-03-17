@@ -85,7 +85,7 @@ How Event Loop works, microtasks.
 1.	SPA vs MPA pros/cons; (single page vs multi page) https://merehead.com/ru/blog/single-page-application-vs-multi-page-application/ (+link in JS conpetentency center)
 2.	SSR vs CSR pros/cons; (server side rendering vs client side rendering) (+link in JS conpetentency center)
 3.	progressive enhancement и graceful degradation (mobile first, desktop first).
-5.	Micro-frontends, monorepos;	https://martinfowler.com/articles/micro-frontends.html; https://www.toptal.com/front-end/guide-to-monorepos
+5.	Micro-frontends, monorepos;	https://dou.ua/lenta/articles/micro-frontend/; https://martinfowler.com/articles/micro-frontends.html; https://www.toptal.com/front-end/guide-to-monorepos
 6.	PWA (features list briefly); (progressive web application) https://www.altexsoft.com/blog/engineering/progressive-web-apps/; https://web.dev/what-are-pwas/
 7.	CSS methodologies: BEM, OOCSS, SMACSS, Atomic CSS, CSS-in-JS, CSS modules; https://www.valoremreply.com/post/5_css_methodologies/; https://2020.stateofcss.com/en-US/technologies/methodologies/
 8.	Angular vs React vs etc how to choose next project framework? https://code.tutsplus.com/tutorials/15-important-considerations-for-choosing-a-web-dev-framework--net-8035
@@ -105,5 +105,9 @@ How Event Loop works, microtasks.
 	Production case studies;
 	Team background / level of knowledge;
 	SSR support.
+! говорить с точки зрения бизнеса, его потребностей. А не характеристик фреймворка, своих хотелок и т.д.)
+1) Not functional requirements - speed (performance, package size), security, license, stability, issue fix speed
+2) Возможность поддерживать после релиза
+3) cost of professionals
+4) какие фичи нужны - ssr, pwa, etc
 9. E2E Solutions
-
