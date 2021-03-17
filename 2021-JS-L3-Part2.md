@@ -81,27 +81,29 @@ How Event Loop works, microtasks.
 - priority hints? https://developers.google.com/web/updates/2019/02/priority-hints
 - critical rendering path https://habr.com/ru/company/hh/blog/513940/
 
-##### Technology comprasion
-progressive enhancement и graceful degradation (mobile first, desktop first).
-1.	SPA vs MPA pros/cons; (single page vs multi page)
-2.	SSR vs CSR pros/cons; (server side rendering vs client side rendering)
-3.	Micro-frontends, monorepos;
-4.	PWA (features list briefly); (progressive web application)
-5.	CSS methodologies: BEM, OOCSS, SMACSS, Atomic CSS, CSS-in-JS, CSS modules;
-6.	Angular vs React vs etc how to choose next project framework?
-7.	Community, github stars, repos, forks, components;
-8.	Documentation;
-9.	Support, new versions;
-10.	Popularity trends (npm, google, stackoverflow);
-11.	Learning curve;
-12.	Features out of the box;
-13.	Scalable for big teams;
-14.	Versions backward compatibility;
-15.	Native/mobile apps support?
-16.	Bundle size;
-17.	Flexible/opinionated in project structure/configuration;
-18.	Ease of integration to existing apps (micro frontends-friendliness);
-19.	Production case studies;
-20.	Team background / level of knowledge;
-21.	SSR support.
+##### Technology comprasion 
+1.	SPA vs MPA pros/cons; (single page vs multi page) https://merehead.com/ru/blog/single-page-application-vs-multi-page-application/ (+link in JS conpetentency center)
+2.	SSR vs CSR pros/cons; (server side rendering vs client side rendering) (+link in JS conpetentency center)
+3.	progressive enhancement и graceful degradation (mobile first, desktop first).
+5.	Micro-frontends, monorepos;	https://martinfowler.com/articles/micro-frontends.html; https://www.toptal.com/front-end/guide-to-monorepos
+6.	PWA (features list briefly); (progressive web application) https://www.altexsoft.com/blog/engineering/progressive-web-apps/; https://web.dev/what-are-pwas/
+7.	CSS methodologies: BEM, OOCSS, SMACSS, Atomic CSS, CSS-in-JS, CSS modules; https://www.valoremreply.com/post/5_css_methodologies/; https://2020.stateofcss.com/en-US/technologies/methodologies/
+8.	Angular vs React vs etc how to choose next project framework? https://code.tutsplus.com/tutorials/15-important-considerations-for-choosing-a-web-dev-framework--net-8035
+(+link in JS conpetentency center)
+	Community, github stars, repos, forks, components;
+	Documentation;
+	Support, new versions;
+	Popularity trends (npm, google, stackoverflow);
+	Learning curve;
+	Features out of the box;
+	Scalable for big teams;
+	Versions backward compatibility;
+	Native/mobile apps support?
+	Bundle size;
+	Flexible/opinionated in project structure/configuration;
+	Ease of integration to existing apps (micro frontends-friendliness);
+	Production case studies;
+	Team background / level of knowledge;
+	SSR support.
+9. E2E Solutions
 
