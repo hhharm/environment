@@ -115,3 +115,7 @@ How Event Loop works, microtasks.
 
 этапы старта проекта: presale,discovery (тут solution architectors, delivery managers, sometimes TL - текущее состояние команды? time to market? есть ли специфические NFR?)
 есть ли какая-то заинтересованность наша? Может быть у нас уже есть готовая команда?
+
+NodeJs + AWS. Говорят перспективная связка, много интересных проектов
+Clean Architecture подход - отход от зависимости от фреймворков. Бизнес логика отдельно, репрезентация отдельно
+functional requirements
