@@ -117,5 +117,20 @@ How Event Loop works, microtasks.
 есть ли какая-то заинтересованность наша? Может быть у нас уже есть готовая команда?
 
 NodeJs + AWS. Говорят перспективная связка, много интересных проектов
+
+
 Clean Architecture подход - отход от зависимости от фреймворков. Бизнес логика отдельно, репрезентация отдельно
 functional requirements
+
+#### Angular Deep Dive
+
+1. DI Tree https://indepth.dev/posts/1261/what-you-always-wanted-to-know-about-angular-dependency-injection-tree
+2. Change detection https://indepth.dev/posts/1058/a-gentle-introduction-into-change-detection-in-angular, https://indepth.dev/posts/1064/what-every-front-end-developer-should-know-about-change-detection-in-angular-and-react
+3. Ivy https://medium.com/angular-in-depth/ivy-engine-in-angular-first-in-depth-look-at-compilation-runtime-and-change-detection-876751edd9fd
+4. 
+
+
+#### Node JS Architecture
+1. Scaling cube: горизонтальное (добавление реплик),  разделение по функционалу (разные микросервисы занимаются разным), скейлинг данных (шардирование - разбиение данных на куски, реплика - создание клонов DB, зональное шардирование (что-то связанное с регионами)). Ещё наращивание ресурсов
+2. Не надо оптимизировать то, что работает! Оптимизация только тогда, когда что-то начинает проседать
+3. Кеширование
