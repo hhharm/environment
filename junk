@@ -1,0 +1,13 @@
+What I want to create:
+
+I want to visualise NgRx as a game.
+
+We've got roles: main hero, StoreKeeper (aka reducer), store (aka store)), curiers (aka actions), store keeper friends (aka effects), treasure (aka data), 
+treasure map (aka observers).
+
+The goal of the game is to build castle. 
+
+1) Need to get money via treasure & treasure map.
+2) Need to put them to store (via store, etc)
+3) Need to hire workers (via store,etc + effects)
+4) Need to buy resources
