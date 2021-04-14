@@ -192,3 +192,10 @@ L - lease knowledge (закон Деметры) - каждый отряд дол
 #### Паттерны
 На ассесменте спросят: что используется на проекте? Или что можно было бы использовать? Паттерны, которые стали антипаттернами?
 "Можно" рассказывать о том, что знаешь)) важная хорошая теоретическая база
+
+
+#### Code qualityv - very important!
+
+- Review, tests, code coverage (test), lint. Sonar Qube.
+- Quality gates (command should talk and decide, also they can come from business).
+- Technical debt (intentional and unintentional).
