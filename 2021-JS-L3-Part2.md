@@ -219,4 +219,6 @@ manual tests
 
 -unit tets: FirST - fast (быстрый), independent (изолирует функциональность), repetable (одинаковый результат при одинаковом запуске), self-validating (выдаёт результат, сам говорит он упал или нет), timely (пишется До написания кода); AAA (triple A pattern): arragnge, act, assert
 
-"unit tests are the best code documentation"
+"unit tests are the best code documentation" ?
+
+#### Documentation - спросят на ассесменте
