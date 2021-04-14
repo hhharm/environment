@@ -196,6 +196,25 @@ L - lease knowledge (закон Деметры) - каждый отряд дол
 
 #### Code qualityv - very important!
 
+Reason - maintanability, readability, stability.
+
 - Review, tests, code coverage (test), lint. Sonar Qube.
 - Quality gates (command should talk and decide, also they can come from business).
 - Technical debt (intentional and unintentional).
+- Metrics ? Cyclomatix complexity, etc. 
+
+Testing pyramide:
+
+UAT
+manual tests
+
+              ---e2e tests---
+      --------integration tests--------
+-----------------unit tests-----------------
+
+Тех, которых ниже, должно быть больше. Юнит тесты дешевле: стоимость управления сильно дешевле, стоимость разработки (делают разработчки сразу), они быстро выполняются, стоимость энвайронмета тоже ниже
+
+
+Как понять, что тесты хороши: 
+
+-unit tets: FirST - fast (быстрый), independent (изолирует функциональность), repetable (одинаковый результат при одинаковом запуске), self-validating (выдаёт результат, сам говорит он упал или нет), timely (пишется До написания кода); AAA (triple A pattern): arragnge, act, assert
