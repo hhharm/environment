@@ -1,0 +1,11 @@
+# GIT
+- CI/CD/CD https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
+- Different release strategies: https://opensource.com/article/17/5/colorful-deployments, https://martinfowler.com/bliki/BlueGreenDeployment.html, https://docs.launchdarkly.com/guides/best-practices/deployment-strategies
+ blue-green (switch between many to many), canary (switch on small patch and to small group of people), rolling (swithc one pod by one, default stratagy)
+ 
+ ### git workflows:
+- https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=The%20overall%20flow%20of%20Gitflow,branch%20is%20created%20from%20master&text=When%20a%20feature%20is%20complete%20it%20is%20merged%20into%20the,branch%20is%20created%20from%20master
+- https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow
+- https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+- https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+- https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=The%20overall%20flow%20of%20Gitflow,branch%20is%20created%20from%20master&text=When%20a%20feature%20is%20complete%20it%20is%20merged%20into%20the,branch%20is%20created%20from%20master
