@@ -1,7 +1,8 @@
 # GIT, CI
 - CI/CD/CD https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
 - Different release strategies: https://opensource.com/article/17/5/colorful-deployments, https://martinfowler.com/bliki/BlueGreenDeployment.html, https://docs.launchdarkly.com/guides/best-practices/deployment-strategies
- blue-green (switch between many to many), canary (switch on small patch and to small group of people), rolling (swithc one pod by one, default stratagy)
+ blue-green (switch between many to many), canary (кЭнори) (switch on small patch and to small group of people), rolling (swithc one pod by one, default stratagy)
+ + recreation strategy (simple and cheap, but downtime), shadow
 - Security testing https://habr.com/ru/company/alexhost/blog/535128/
  
  ### git workflows:
