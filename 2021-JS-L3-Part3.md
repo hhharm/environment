@@ -16,3 +16,17 @@
 
 veracode - vulnarability scan
 sonar - different checks
+
+
+### SDLC
+software development lifecycle.
+Waterfall, V-model, rup https://habr.com/ru/post/329572/, https://compress.ru/article.aspx?id=9633
+
+Основные идеи Agile:
+
+люди и взаимодействие важнее процессов и инструментов;
+работающий продукт важнее исчерпывающей документации;
+сотрудничество с заказчиком важнее согласования условий контракта;
+готовность к изменениям важнее следования первоначальному плану.
+ 
+SCRUM
