@@ -30,3 +30,4 @@ Waterfall, V-model, rup https://habr.com/ru/post/329572/, https://compress.ru/ar
 готовность к изменениям важнее следования первоначальному плану.
  
 SCRUM
+Церемонии, роли. Defenition of ready (готова ли задача к разработке); Defenition of done (готова ли задача)
