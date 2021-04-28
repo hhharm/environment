@@ -18,7 +18,7 @@ veracode - vulnarability scan
 sonar - different checks
 
 
-### SDLC
+### SDLC - изучить((
 software development lifecycle.
 Waterfall, V-model, rup https://habr.com/ru/post/329572/, https://compress.ru/article.aspx?id=9633
 
@@ -32,4 +32,6 @@ Waterfall, V-model, rup https://habr.com/ru/post/329572/, https://compress.ru/ar
 SCRUM
 Церемонии, роли. 
 Defenition of ready (готова ли задача к разработке); Defenition of done (готова ли задача).
-Артефакты скрама: беклог, спринт беклог, инкремент (наше new value/new version продукта)
+Артефакты скрама: беклог, спринт беклог, инкремент (наше new value/new version продукта).
+Метрики: burndown chart, capacity (объём, который команда может взять - количество человеко-часов, которое есть у команды), velocity (количество SP - стори поинтов, среднее за 3 спринта), backlog health (то, насколько задачи сформированы на начальном этапе), throuput (сколько % задач команда выполнила. Хорошо это 80%, отлично 85%).
+Lead time (от момента добавления в беклог продукта до релиза), cycle time (от момента взятия в работу до релиза)
