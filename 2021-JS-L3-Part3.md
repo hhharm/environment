@@ -35,3 +35,9 @@ Defenition of ready (готова ли задача к разработке); De
 Артефакты скрама: беклог, спринт беклог, инкремент (наше new value/new version продукта).
 Метрики: burndown chart, capacity (объём, который команда может взять - количество человеко-часов, которое есть у команды), velocity (количество SP - стори поинтов, среднее за 3 спринта), backlog health (то, насколько задачи сформированы на начальном этапе), throuput (сколько % задач команда выполнила. Хорошо это 80%, отлично 85%).
 Lead time (от момента добавления в беклог продукта до релиза), cycle time (от момента взятия в работу до релиза)
+
+KANBAN
+https://www.agilealliance.org/glossary/kanban/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'kanban))~searchTerm~'~sort~false~sortDirection~'asc~page~1)
+
+
+LESS и SAFE Это подходы к работе на проектах в которых большое кол-во связанных команд, которые работают по agile методологиям. Есть ещё Spotify model, крайне интересный подход, но его основной недостаток — это зависимость на менталитет людей. В Скандинавии работает хорошо, но больше нигде особо не смог прижиться
