@@ -13,3 +13,4 @@
 	delete-remote = push origin --delete
 [core]
 	excludesfile = ~/.gitignore
+	editor = notepad
