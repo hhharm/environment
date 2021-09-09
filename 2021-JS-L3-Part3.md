@@ -46,3 +46,39 @@ LESS и SAFE Это подходы к работе на проектах в ко
 
 
 Самое важное - в каком типе проектов применять какую методологию, их достоинства и недостатки
+
+###
+Performance:
+- While Nataliia gave a pretty good explanation on some topics, the answer was not well-structured, some things were missing (e.g. Rendering optimizations, Networking optimizations, Bundle splitting, AOT compilation). 
+https://github.com/thedaviddias/Front-End-Performance-Checklist
+- metrics: time to first byte, time to load, time to interact.
+
+CI/CD:
+- different deployment strategies and their pros/cons
+https://circleci.com/blog/canary-vs-blue-green-downtime/
+
+Code Quality:
+- code smells https://refactoring.guru/refactoring/smells
+- quality gate vs qualiti measures 
+https://linearb.io/blog/quality-gates/
+
+
+CSS:
+
+- common problems with BEM, alternatives to BEM
+https://clubmate.fi/oocss-acss-bem-smacss-what-are-they-what-should-i-use
+https://acss.io/
+https://styled-components.com/
+
+Async execution:
+- wasn't able to clearly answer when task queued in microtask would be executed
+- couldn't clearly explain the downsides of web workers usage and don't have experience with them
+
+Soft skills:
+SP usage
+https://www.mountaingoatsoftware.com/blog/dont-equate-story-points-to-hours
+- post mortem actions for preventing production issues in future
+https://www.atlassian.com/incident-management/handbook/postmortems#what-is-post-mortem
+
+
++ Try to find time to create some sandbox project with service/web workers usage just to get some practical experience with it.
