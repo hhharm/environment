@@ -48,7 +48,11 @@ alias launch-test="npm run test"
 alias result-test="cat testlog.txt | grep 'should create FAILED' | tee -a testlog.txt"
 alias test="echo 'Run tests'; launch-test | tee testlog.txt; echo 'Tests has been completed'; result-test"
 
-#**replace here**
-alias homeXXX='cd XXX && pwd'
-alias homeYYY='cd YYY && pwd'
-alias home='homeXXX'
+#oc
+#oc login
+#oc project <project name>
+#oc get pods | grep <pod name partial>
+#oc port-forward <pod name full> <local port>:<remote port>
+
+
+
