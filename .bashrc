@@ -55,4 +55,9 @@ alias test="echo 'Run tests'; launch-test | tee testlog.txt; echo 'Tests has bee
 #oc port-forward <pod name full> <local port>:<remote port>
 
 
+#run if needed - sets bash as execute env for npm
+#npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"
+
+
+
 
