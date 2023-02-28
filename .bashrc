@@ -15,8 +15,8 @@ alias noderemotedebug="node --inspect-brk=0.0.0.0:9230 src"
 #then open chrome://insect and there should be your app
 
 #settings when windows does not see node and java :\
-export PATH="$PATH:/c/Program Files/nodejs/"
-alias java="/c/Program\ Files/Java/jre1.8.0_161/bin/java.exe"
+#export PATH="$PATH:/c/Program Files/nodejs/"
+#alias java="/c/Program\ Files/Java/jre1.8.0_161/bin/java.exe"
 
 #git
 alias gk='echo "gitk --all&"; gitk --all&'
@@ -35,9 +35,10 @@ alias pushnew="git push --set-upstream origin ` git branch | grep -e '^*' | cut 
 alias git-undo-amend="git reset --soft HEAD@{1}"
 
 #run spring
-alias run="mvn spring-boot:run -Drun.profiles=dev"
-alias rerun="echo 'mvn clean install && run'; mvn clean install && run"
-alias qrerun="echo 'mvn clean install && run'; mvn clean install 2>&1 1>/dev/null && echo 'installed sucessfully' && run"
+# alias run="mvn spring-boot:run -Drun.profiles=dev"
+# alias rerun="echo 'mvn clean install && run'; mvn clean install && run"
+# alias qrerun="echo 'mvn clean install && run'; mvn clean install 2>&1 1>/dev/null && echo 'installed sucessfully' && run"
+
 alias fe="echo 'npm run start' && npm run start"
 
 #angular cli 
@@ -57,7 +58,6 @@ alias test="echo 'Run tests'; launch-test | tee testlog.txt; echo 'Tests has bee
 
 #run if needed - sets bash as execute env for npm
 #npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"
-
 
 
 
