@@ -13,6 +13,9 @@
 	delete-remote = push origin --delete
 	# Display tree-like log, because default log is a pain…
         lg = log --graph --date=relative --pretty=tformat:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%an %ad)%Creset'
+	# Display local branches and name of latest commit for them
+	# you can run also brl -a to see all brunches or brl -r to see only remote
+	brl = br -vv
 	# Useful when you have to update your last commit
 	# with staged files without editing the commit message.
 	oops = commit --amend --no-edit
