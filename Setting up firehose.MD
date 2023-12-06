@@ -23,3 +23,12 @@ Java! JDK 11+ for emulation https://jdk.java.net/21/
 I couldn't run this in my bash, doesn't see java even though it's added to path.
 
 Running in powershell, but note - need to run like `npx firebase bla-bla-bla`
+
+# Useful links
+https://firebase.google.com/docs/projects/learn-more - intro, need to read
+https://firebase.google.com/docs/reference/js - api reference
+https://firebase.google.com/docs/cli#windows-npm - commands
+https://firebase.google.com/support/guides/security-checklist, https://firebase.google.com/docs/projects/dev-workflows/general-security-guidelines - secutiry, need to read
+https://firebase.google.com/support/guides/launch-checklist - launch check list, need to add before launching
+https://firebase.google.com/docs/projects/dev-workflows/general-best-practices - best practises, need to read
+https://firebase.google.com/docs/projects/dev-workflows/overview-environments - envs guidelines, need to read
