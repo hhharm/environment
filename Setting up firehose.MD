@@ -45,6 +45,12 @@ Running in powershell, but note - need to run like `npx firebase bla-bla-bla`
   26 npx firebase emulators:start
 ```
 
+## Deploy
+
+```firebase deploy --only hosting```
+
+This is for hosting (frontend only) deploy
+
 # Useful links
 https://firebase.google.com/docs/projects/learn-more - intro, need to read
 
